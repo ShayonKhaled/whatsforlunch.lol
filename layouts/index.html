@@ -1,0 +1,20 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    <div class="content-center">
+        <main class="home-hero">
+            <h1>what's what's for lunch?</h1>
+            <p class="home-description">{{ .Site.Params.description }}</p>
+
+            <blockquote class="disclaimer">
+                <strong>Disclaimer:</strong> This is an independent student project and is not affiliated with, endorsed by, or officially connected to the university or its cafeteria in any way.
+            </blockquote>
+        </main>
+
+        <section class="home-content">
+            {{ .Content }}
+        </section>
+    </div>
+{{ end }}

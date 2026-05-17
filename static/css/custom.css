@@ -1,0 +1,131 @@
+/* ── Home hero ── */
+body {
+  text-transform: lowercase;
+  background-color: #2D2B55;
+}
+
+.content-center {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.home-description {
+  font-size: 1rem;
+  line-height: 1.65;
+  opacity: 0.82;
+  margin-top: 0.35rem;
+  max-width: 34rem;
+}
+
+/* ── Disclaimer ── */
+.disclaimer {
+  border-left: 3px solid #FF7200;
+  background: rgba(255, 114, 0, 0.08);
+  padding: 0.8rem 1rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin: 1.75rem 0;
+  text-align: left;
+  max-width: 42rem;
+}
+
+.disclaimer strong {
+  color: #FF7200;
+}
+
+.home-content {
+  width: 100%;
+  margin: 2.25rem 0 0;
+  text-align: left;
+}
+
+.home-content h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.45rem;
+  text-align: left;
+}
+
+.home-content p {
+  margin: 0 0 1rem;
+  line-height: 1.75;
+  opacity: 0.9;
+}
+
+.home-content hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin: 1.5rem 0;
+}
+
+.home-content a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF628C;
+  color: #fff !important;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(255, 98, 140, 0.35);
+  margin-top: 0.25rem;
+}
+
+.home-content a:hover {
+  background-color: #ff7aa0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(255, 98, 140, 0.5);
+}
+
+.post-date:after {
+  content: '-';
+}
+
+.footer {
+  width: 100%;
+  max-width: 42rem;
+  margin: 2.5rem auto 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.footer__inner {
+  justify-content: flex-start;
+}
+
+.footer__content {
+  width: 100%;
+  text-align: left;
+}
+
+.footer .footer__inner .footer__content a {
+  color: #FF7200 !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-decoration-color: #FF7200 !important;
+  text-underline-offset: 0.16em !important;
+}
+
+.footer .footer__inner .footer__content a:hover {
+  color: #FF628C !important;
+  text-decoration-color: #FF628C !important;
+}
+
+/* ── Dark mode ── */
+.dark .disclaimer {
+  background: rgba(88, 101, 242, 0.12);
+}
