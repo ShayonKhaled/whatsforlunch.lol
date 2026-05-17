@@ -41,8 +41,6 @@ enableEmoji     = true
 
   [params.logo]
     logoText     = "what's for lunch?"
-    path         = "favicon.ico"
-    alt          = "what's for lunch?"
 
   [params.favicon.color]
     mask         = "#1b1c1d"
