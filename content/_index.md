@@ -15,4 +15,4 @@ in fewer words, it exists because i am lazy.
 
 the bot is free to use. click the button below to invite it, once it's in your server, run `/subscribe` in any channel to get started.
 
-[add to discord →](#your-invite-url-here)
+[add to discord →](https://discord.com/oauth2/authorize?client_id=1505121058271924264&permissions=268437504&integration_type=0&scope=bot)
