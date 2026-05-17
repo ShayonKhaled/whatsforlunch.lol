@@ -36,8 +36,7 @@ enableEmoji     = true
     copyright = true
     author    = false
     bottomText = [
-      "Built with <a href=\"https://gohugo.io\" target=\"_blank\">Hugo</a> · Powered by <a href=\"https://n8n.io\" target=\"_blank\">n8n</a> & <a href=\"https://anthropic.com\" target=\"_blank\">Claude</a>",
-      "This project is open source · <a href=\"https://github.com/ShayonKhaled/Campus-Lunch-Pipeline\" target=\"_blank\">Pipeline</a> · <a href=\"https://github.com/ShayonKhaled/Whats-for-Lunch-Discord-Bot\" target=\"_blank\">Discord Bot</a>"
+      "this project is open source · <a href=\"https://github.com/ShayonKhaled/Campus-Lunch-Pipeline\" target=\"_blank\">pipeline</a> · <a href=\"https://github.com/ShayonKhaled/Whats-for-Lunch-Discord-Bot\" target=\"_blank\">discord bot</a>"
     ]
 
   [params.logo]
