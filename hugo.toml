@@ -15,8 +15,8 @@ enableEmoji     = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  description = "a discord bot that posts the daily uzumasa campus cafeteria menu to your server, automatically, every weekday at 9:00 am jst."
-  keywords    = "discord bot, cafeteria menu, lunch, university, uzumasa, campus"
+  description = "a discord bot that posts the daily cafeteria menu to your server every weekday at 9:00 AM JST."
+  keywords    = "discord bot, cafeteria menu, lunch, university, haha, whee"
 
   homeSubtitle = "daily lunch menus, delivered to your discord server."
 
