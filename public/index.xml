@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>what&#39;s for lunch?</title>
-    <link>http://localhost:1313/whatsforlunch.lol/</link>
+    <link>https://shayonkhaled.github.io/whatsforlunch.lol/</link>
     <description>Recent content on what&#39;s for lunch?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>an independent student project. not affiliated with the university.</copyright>
     <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/whatsforlunch.lol/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shayonkhaled.github.io/whatsforlunch.lol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bot commands</title>
-      <link>http://localhost:1313/whatsforlunch.lol/commands/</link>
+      <link>https://shayonkhaled.github.io/whatsforlunch.lol/commands/</link>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/whatsforlunch.lol/commands/</guid>
+      <guid>https://shayonkhaled.github.io/whatsforlunch.lol/commands/</guid>
       <description>&lt;p&gt;all commands are discord slash commands. type &lt;code&gt;/&lt;/code&gt; in any channel where the bot is present to see them.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;subscribe&#34;&gt;&lt;code&gt;/subscribe&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;who can use it:&lt;/strong&gt; server admins (manage server permission required)&lt;/p&gt;&#xA;&lt;p&gt;subscribes the current channel to daily lunch menu updates. the bot will:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a &lt;code&gt;notify-menu&lt;/code&gt; role in your server automatically&lt;/li&gt;&#xA;&lt;li&gt;start posting the menu every weekday at &lt;strong&gt;9:00 am jst&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;tell your members about &lt;code&gt;/notify&lt;/code&gt; so they can opt into pings&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;usage:&lt;/strong&gt; run this in whichever channel you want the menu to appear in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>how it works</title>
-      <link>http://localhost:1313/whatsforlunch.lol/how-it-works/</link>
+      <link>https://shayonkhaled.github.io/whatsforlunch.lol/how-it-works/</link>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/whatsforlunch.lol/how-it-works/</guid>
+      <guid>https://shayonkhaled.github.io/whatsforlunch.lol/how-it-works/</guid>
       <description>&lt;h2 id=&#34;the-pipeline&#34;&gt;the pipeline&lt;/h2&gt;&#xA;&lt;p&gt;the cafeteria sends a weekly email every friday containing a link to a pdf menu. this bot picks that up and automates everything else.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[University Email]&#xA;      |&#xA;      v&#xA;[n8n: Gmail Search] --&amp;gt; [Playwright API: Fetch SharePoint PDF]&#xA;      |&#xA;      v&#xA;[Claude API: Extract menu as JSON]&#xA;      |&#xA;      v&#xA;[PostgreSQL: Store menu items]&#xA;      |&#xA;      v&#xA;[n8n: Daily Discord Poster @ 9am JST]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;tech-stack&#34;&gt;tech stack&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Component&lt;/th&gt;&#xA;          &lt;th&gt;Technology&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Workflow automation&lt;/td&gt;&#xA;          &lt;td&gt;n8n&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PDF fetching&lt;/td&gt;&#xA;          &lt;td&gt;Playwright + Express (Node.js)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AI extraction&lt;/td&gt;&#xA;          &lt;td&gt;Claude (Anthropic API)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Database&lt;/td&gt;&#xA;          &lt;td&gt;PostgreSQL&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Bot framework&lt;/td&gt;&#xA;          &lt;td&gt;discord.js&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Infrastructure&lt;/td&gt;&#xA;          &lt;td&gt;Proxmox (self-hosted)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;step-by-step&#34;&gt;step by step&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-email-detection-saturday&#34;&gt;1. email detection (saturday)&lt;/h3&gt;&#xA;&lt;p&gt;every saturday, an n8n workflow checks a gmail account for the weekly menu email. when found, it extracts the sharepoint link from the email body.&lt;/p&gt;</description>
     </item>
   </channel>
