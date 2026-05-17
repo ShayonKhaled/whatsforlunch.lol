@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/sha7o/OneDrive/Documents/Github/whats-for-lunch",
+	"sourceRoot": "C:/Users/sha7o/OneDrive/Documents/Github/whatsforlunch.lol",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

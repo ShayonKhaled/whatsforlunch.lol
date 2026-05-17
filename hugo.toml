@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://shayonkhaled.github.io/whatsforlunch.lol/"
 title   = "what's for lunch?"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -42,7 +42,6 @@ enableEmoji     = true
   [params.logo]
     logoMark     = "🍱"
     logoText     = "what's for lunch?"
-    logoHomeLink = "/"
 
   [params.favicon.color]
     mask         = "#1b1c1d"
