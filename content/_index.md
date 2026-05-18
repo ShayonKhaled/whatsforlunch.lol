@@ -3,11 +3,12 @@ title: "what's for lunch?"
 description: "a discord bot that posts the daily cafeteria menu to your server every weekday at 9:00 AM JST."
 ---
 
+## why this exists
+
 
 <div class="mockup-wrap">
   <img src="iphone-mockup.png" alt="Discord menu bot on iPhone">
-  <p>checking the cafeteria menu means digging through a weekly email, clicking a sharepoint link, and opening a pdf - every single day. i eat lunch at cafeteria pretty often. this bot skips all of that and just posts the menu where i already am.</p>
-  <p>in fewer words, it exists because i am lazy.</p>
+  <p>checking the cafeteria menu means digging through a weekly email, clicking a sharepoint link, and opening a pdf - every single day. i eat lunch at cafeteria pretty often. this bot skips all of that and just posts the menu where i already am. <b> in fewer words, it exists because i am lazy.</b></p>
 </div>
 
 ---
