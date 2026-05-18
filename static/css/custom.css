@@ -34,7 +34,30 @@ body {
   margin-top: 0.35rem;
   max-width: 34rem;
 }
+.mockup-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
 
+.mockup-wrap img {
+  width: 160px;
+  flex-shrink: 0;
+  border-radius: 32px;
+}
+
+.mockup-wrap p {
+  margin: 0 0 0.75rem;
+}
+@media (max-width: 600px) {
+  .mockup-wrap {
+    flex-direction: column;
+  }
+  .mockup-wrap img {
+    width: 200px;
+  }
+}
 /* ── Disclaimer ── */
 .disclaimer {
   border-left: 3px solid #FF7200;
