@@ -74,3 +74,5 @@ enableEmoji     = true
   [languages.en]
     weight    = 1
     copyright = "an independent student project. not affiliated with the university."
+[markup.goldmark.renderer]
+  unsafe = true
