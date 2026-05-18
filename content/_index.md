@@ -5,11 +5,10 @@ description: "a discord bot that posts the daily cafeteria menu to your server e
 
 ## why this exists
 
+checking the cafeteria menu means digging through a weekly email, clicking a sharepoint link, and opening a pdf - every single day. i eat lunch at cafeteria pretty often. this bot skips all of that and just posts the menu where i already am. 
 
-<div class="mockup-wrap">
-  <img src="iphone-mockup.png" alt="Discord menu bot on iPhone">
-  <p>checking the cafeteria menu means digging through a weekly email, clicking a sharepoint link, and opening a pdf - every single day. i eat lunch at cafeteria pretty often. this bot skips all of that and just posts the menu where i already am. <b> in fewer words, it exists because i am lazy.</b></p>
-</div>
+in fewer words, it exists because i am lazy.
+
 
 ---
 
