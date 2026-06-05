@@ -9,8 +9,6 @@ checking the cafeteria menu means digging through a weekly email, clicking a sha
 
 **in fewer words, it exists because i am lazy.**
 
-now with support for **both uzumasa and kameoka campuses** — pick one or subscribe to both.
-
 
 ---
 
@@ -25,7 +23,7 @@ the bot is free to use. click the button below to invite it, once it's in your s
 ### what you get
 
 - **two campuses** — uzumasa and kameoka, choose one or both
-- **prices in yen** — see how much each dish costs, plus a student discount notice
+- **prices in yen** — see how much each dish costs
 - **dish ratings** — rate dishes 1–5 stars, see aggregate scores on future menus
-- **halal menu** — claude vision-powered halal menu uploads
+- **halal menu** — see when halal-friendly items are available
 - **nutrition info** — calories, protein, fat, and allergen warnings on every dish
