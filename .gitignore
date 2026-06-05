@@ -1,0 +1,19 @@
+# Claude (local session files only — CLAUDE.md is committed intentionally)
+.claude/
+.claude*
+
+# Hugo build output (if not committed for Pages)
+# public/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Hugo generated
+.hugo_build.lock
+resources/
